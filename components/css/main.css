@@ -64,3 +64,8 @@ a {
     color: grey;
     text-decoration: none;
 }
+
+.feature-card1 {
+    color: pink;
+    max-width: 1000px;
+}
