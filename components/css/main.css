@@ -46,7 +46,9 @@ ul {
     
     
 }
-
+.button {
+ max-width: 250px;
+}
 .navbar-button {
     display: flex;
     justify-content: flex-end;
@@ -56,6 +58,7 @@ ul {
     background-color: rgb(81, 35, 189);
     padding: 10px;
     font-size: 16px;
+    
        
 }
 
