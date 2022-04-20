@@ -1,27 +1,37 @@
 body {
- background: #2C2D30;   
+background: #2C2D30;
+padding: 0px 20px;
 }
+
+h1, h2, p{
+color: white;
+}
+
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
   }
 
+img{
+max-width: 350px;
+}
+
 .navbar-container {
     background: #2C2D30;
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
     gap: 100px;
-    padding: 0px 20px;
+    max-height: 60px;
+    padding-top: 5px;
+    
     
 }
 .navbar-header {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    max-height: 50px
     
 }
 
@@ -46,9 +56,8 @@ ul {
     
     
 }
-.button {
- max-width: 250px;
-}
+
+
 .navbar-button {
     display: flex;
     justify-content: flex-end;
@@ -58,8 +67,10 @@ ul {
     background-color: rgb(81, 35, 189);
     padding: 10px;
     font-size: 16px;
-    
        
+}
+.button {
+max-width: 90px;
 }
 
 a {
@@ -70,7 +81,9 @@ a {
     text-decoration: none;
 }
 
-.feature-card1 {
-    color: pink;
-    max-width: 1000px;
+.card{
+background: linear-gradient(#6D64E0, #5046CF);
+
+border-radius: 2%;
+max-width: 450px;
 }
